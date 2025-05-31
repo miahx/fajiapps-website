@@ -1,7 +1,7 @@
 "use client"
 
 import { Heart, ChevronRight, MapPin, MessageCircle, Zap } from "lucide-react"
-import Button from "@/components/ui/Button"
+import Button from "@/components/ui/button"
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {

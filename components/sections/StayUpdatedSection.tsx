@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState } from "react"
 import { Mail, Heart } from "lucide-react"
-import Button from "@/components/ui/Button"
+import Button from "@/components/ui/button"
 
 export default function StayUpdatedSection() {
   const [email, setEmail] = useState("")

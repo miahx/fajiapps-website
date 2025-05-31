@@ -1,5 +1,5 @@
 import { Smartphone, Store, MessageCircle, Zap } from "lucide-react"
-import Card from "@/components/ui/Card"
+import Card from "@/components/ui/card"
 
 export default function SneakPeeksSection() {
   return (
