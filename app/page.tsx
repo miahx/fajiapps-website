@@ -14,7 +14,7 @@ export default function Home() {
       <AboutSection />
       <SneakPeeksSection />
       <LaunchSection />
-      <StayUpdatedSection />
+      {/* <StayUpdatedSection /> */}
       <Footer />
     </div>
   )

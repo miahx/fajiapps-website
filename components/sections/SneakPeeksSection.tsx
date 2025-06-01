@@ -1,5 +1,6 @@
 import { Smartphone, Store, MessageCircle, Zap } from "lucide-react"
 import Card from "@/components/ui/card"
+import Image from "next/image"
 
 export default function SneakPeeksSection() {
   return (
@@ -18,26 +19,7 @@ export default function SneakPeeksSection() {
 
             <div className="mb-8 flex justify-center">
               <div className="relative group-hover:scale-105 transition-transform duration-500">
-                <div className="w-56 h-[28rem] bg-gradient-to-br from-orange-500 via-primary to-blue-600 rounded-[3rem] shadow-2xl flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent"></div>
-                  <Smartphone className="h-28 w-28 text-white/90 relative z-10" />
-                </div>
-                <div className="absolute inset-6 bg-white rounded-[2.5rem] flex items-center justify-center shadow-inner">
-                  <div className="text-center space-y-3">
-                    <div className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-primary bg-clip-text text-transparent">
-                      FajiBuy
-                    </div>
-                    <div className="text-sm text-gray-600 font-medium">Customer App</div>
-                    <div className="flex justify-center gap-2 mt-4">
-                      <div className="w-2 h-2 bg-orange-400 rounded-full"></div>
-                      <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                      <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
-                  <MessageCircle className="h-6 w-6 text-white" />
-                </div>
+                <Image src="/sneakpeak-user.jpg" alt="fajibuy" className="w-64 h-[25rem]" width={0} height={0} />
               </div>
             </div>
 
@@ -55,7 +37,8 @@ export default function SneakPeeksSection() {
 
             <div className="mb-8 flex justify-center">
               <div className="relative group-hover:scale-105 transition-transform duration-500">
-                <div className="w-56 h-[28rem] bg-gradient-to-br from-green-500 via-emerald-500 to-teal-600 rounded-[3rem] shadow-2xl flex items-center justify-center relative overflow-hidden">
+                <Image src="/sneakpeak-vendor.jpg" alt="fajibuy" className="w-64 h-[25rem]" width={0} height={0} />
+                {/* <div className="w-56 h-[28rem] bg-gradient-to-br from-green-500 via-emerald-500 to-teal-600 rounded-[3rem] shadow-2xl flex items-center justify-center relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent"></div>
                   <Store className="h-28 w-28 text-white/90 relative z-10" />
                 </div>
@@ -74,7 +57,7 @@ export default function SneakPeeksSection() {
                 </div>
                 <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
                   <Zap className="h-6 w-6 text-white" />
-                </div>
+                </div> */}
               </div>
             </div>
 
