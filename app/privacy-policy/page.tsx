@@ -3,10 +3,10 @@ import React from 'react'
 const page = () => {
   return (
     <div className="max-w-2xl mx-auto py-12 px-4">
-      <h1 className="text-3xl font-bold mb-6">Privacy Policy for FajiBusiness</h1>
+      <h1 className="text-3xl font-bold mb-6">Privacy Policy for FajiApps</h1>
       <p className="mb-4 text-sm text-gray-500">Effective Date: 01/07/2025</p>
-      <p className="mb-4">Welcome to FajiBusiness ("we", "our", or "us"). We value your trust and are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services ("FajiBusiness App").</p>
-      <p className="mb-4">By using the FajiBusiness App, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+      <p className="mb-4">Welcome to FajiApps ("we", "our", or "us"). We value your trust and are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services ("FajiBusiness App").</p>
+      <p className="mb-4">By using the FajiApps, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
       <h2 className="text-xl font-semibold mt-8 mb-2">1. Information We Collect</h2>
       <p className="mb-2 font-semibold">a. Personal and Business Information</p>
       <ul className="list-disc list-inside mb-2">
